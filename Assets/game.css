@@ -251,6 +251,23 @@ h6 {
     transition: 0.1s;
     cursor: pointer;
 }
+.about2 {
+    font-family: '8BITWONDERNominal';
+    text-align: center;
+    padding: 8.5px 40px;
+    font-size: 16px;
+    background-color: #EFB50E;
+    color: #111C29;
+    border: 4px solid #4A4A4A;
+    max-height: 48px;
+    cursor: pointer;
+}
+.about2:hover {
+    background-color: #0469D9;
+    color: #ffffff;
+    transition: 0.1s;
+    cursor: pointer;
+}
 
 /*Play button and animations*/
 .play {

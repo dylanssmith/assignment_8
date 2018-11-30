@@ -23,8 +23,12 @@ var timeleft = 10;
     },1000);
 
 //Buttion click to About page
-$(".about").click(function(){
+$(".about2").click(function(){
     window.location.href='Miscellaneous/about.html';
+})
+    
+$(".about").click(function(){
+    window.location.href='../Miscellaneous/about.html';
 })
 
 //Button click to Play - w/ css animations, DPF text and play button slide out, and monster + Engage button slide in
