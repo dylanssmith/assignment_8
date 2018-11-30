@@ -24,7 +24,7 @@ var timeleft = 10;
 
 //Buttion click to About page
 $(".about").click(function(){
-    window.location.href='../Miscellaneous/about.html';
+    window.location.href='Miscellaneous/about.html';
 })
 
 //Button click to Play - w/ css animations, DPF text and play button slide out, and monster + Engage button slide in
@@ -48,7 +48,7 @@ $("#engage").click(function(){
 
 //Button within monster intro modal to begin gameplay
 $("#Ok").click(function(){
-    window.location.href='subscribe_Start.html';
+    window.location.href='First Dark Patterns Monster/subscribe_Start.html';
 })
 
 //Button click to continue to the Subscription gameplay
@@ -106,7 +106,7 @@ $("#goOn").click(function(){
     
 //button from Game End page back to start
 $("#endCont").click(function(){
-    window.location.href='../First Dark Patterns Monster/game_Start.html';
+    window.location.href='../index.html';
 })
 
 });
